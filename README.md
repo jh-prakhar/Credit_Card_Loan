@@ -2,12 +2,12 @@
 
 An end-to-end Machine Learning minor project designed to automate and predict the credit card loan approval process based on applicant profiles. This project leverages historical financial records and demographic factors to classify whether an applicant will be approved or rejected.
 
-## 📌 Project Overview
+## Project Overview
 Manual verification of credit card and loan eligibility is time-consuming and prone to human error. This project uses historical applicant data to train predictive classification algorithms, minimizing financial default risks while accelerating the approval workflow.
 
 ---
 
-## 🛠️ Project Workflow
+## Project Workflow
 
 ### 1. Data Ingestion
 * The structured customer demographic and financial dataset is imported into the Python environment using the `pandas` library.
@@ -56,7 +56,7 @@ To capture non-linear relationships, reduce skewness, and optimize predictive po
 
 ---
 
-## 🏆 Model Evaluation & Performance Results
+## Model Evaluation & Performance Results
 
 Following feature engineering, transformations, and scaling, all three models were tested on the remaining 20% of the data. 
 
@@ -64,9 +64,9 @@ Following feature engineering, transformations, and scaling, all three models we
 
 | Machine Learning Model | Accuracy Score | Precision Score | Recall Score | F1-Score |
 | :--- | :---: | :---: | :---: | :---: |
-| 🥇 **Naive Bayes** | 86.50% | **80.36%** | 73.77% | 76.92% |
-| 🥈 **Logistic Regression** | **87.00%** | 77.78% | **80.33%** | **79.03%** |
-| 🥉 **k-Nearest Neighbors (kNN)** | 77.00% | 68.29% | 45.90% | 54.90% |
+| **Naive Bayes** | 86.50% | **80.36%** | 73.77% | 76.92% |
+| **Logistic Regression** | **87.00%** | 77.78% | **80.33%** | **79.03%** |
+| **k-Nearest Neighbors (kNN)** | 77.00% | 68.29% | 45.90% | 54.90% |
 
 ### Confusion Matrix Insights
 
@@ -87,7 +87,7 @@ Following feature engineering, transformations, and scaling, all three models we
 
 ---
 
-## 💻 Tech Stack & Libraries Used
+## Tech Stack & Libraries Used
 * **Language:** Python
 * **Data Manipulation:** `pandas`, `numpy`
 * **Data Visualization:** `seaborn`, `matplotlib`
@@ -95,7 +95,7 @@ Following feature engineering, transformations, and scaling, all three models we
 
 ---
 
-## 🚀 How to Run This Project
+## How to Run This Project
 
 1. **Clone the Repository:**
    ```bash
